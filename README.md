@@ -2,10 +2,12 @@
 ## Module 03 Challenge
 
 ### Overview
+
 The objective of this challenge was to utilize newly developed Python skills. These skills include importing dependencies, opening and reading CSV files, calculating data to find changes and totals, parsing through the rows in the CSVs to pull out unique values, and export results to a text file. There were two parts to this challenge: PyBank and PyPoll.
 ------------
 
 ### Analysis
+
 PyBank and PyPoll are two separate files within this challenge, but a lot of their code was the same in terms of starting and ending. Both started with importing os and csv as dependents from the Python library. These dependencies allow me to open and read CSV files to extract and analyze the data contained. Next, I needed to open the CSV files and specify the delimiter with the following code:
   #Open the CSV file
   with open(csvpath) as csvfile:
