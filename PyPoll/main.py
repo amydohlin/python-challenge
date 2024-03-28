@@ -62,6 +62,7 @@ for row in poll_data:
         candidate_votes[candidate] = 1
 
 # Calculate percentage each candidate won
+# Use .3f to round the percentage to three decimal places
 for candidate, votes in candidate_votes.items():
     percentage = (votes / total_votes)*100
     print(f"{candidate}: {percentage:.3f}% ({votes})")
